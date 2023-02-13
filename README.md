@@ -6,5 +6,5 @@ line for testing fetch
 `code here`
 
 ```javascript
-console.log("hello);
+console.log("hello");
 ```
