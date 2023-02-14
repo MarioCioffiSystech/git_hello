@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "test project for git tutorial\r line for testing fetch",
-  "main": "app.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/api/api.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/MarioCioffiSystech/git_hello/issues"
   },
-  "homepage": "https://github.com/MarioCioffiSystech/git_hello#readme"
+  "homepage": "https://github.com/MarioCioffiSystech/git_hello#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
 }

@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "4531f849-f0bb-41ac-aa90-09a7beecc752",
+		"name": "node-example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "simpleGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/simpleGet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"simpleGet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "simpleSum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/simpleSum?p1=4&p2=8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"simpleSum"
+					],
+					"query": [
+						{
+							"key": "p1",
+							"value": "4"
+						},
+						{
+							"key": "p2",
+							"value": "8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "simplePost",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Final Post\",\r\n    \"description\": \"last post inserted\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/simplePost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"simplePost"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
