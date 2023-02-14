@@ -1,0 +1,20 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "test project for git tutorial\r line for testing fetch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioCioffiSystech/git_hello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioCioffiSystech/git_hello/issues"
+  },
+  "homepage": "https://github.com/MarioCioffiSystech/git_hello#readme"
+}
