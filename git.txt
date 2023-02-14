@@ -1,0 +1,109 @@
+GIT init
+inizializza directory
+GIT config --local/global user.name "MarioCioffiSystech"
+GIT config --local/global user.email "cioffi.m@systechteam.it"
+configurazione
+GIT status
+mostra stato
+GIT add <file>
+aggiunge file a stage area
+GIT add .
+aggiunge tutti i files a staging area
+GIT rm --cached <file>
+GIT restore --staged <file>
+rimuove file da staging area
+GIT commit
+GIT commit -am "commento" -m "descrizione"
+aggiunge committa e commenta
+GIT commit -m "commento" -m "descrizione"
+salva nella history
+GIT commit --amend
+mofidica ultima commit
+GIT checkout -- <file>
+annulla ultime modifiche
+GIT log
+GIT log --oneline [--reverse]
+GIT log --all --decorate --oneline --graph
+alias graph='git log --all --decorate --oneline --graph'
+lista dei commit
+GIT reset <ID SHA1> o HEAD^/^^... o HEAD~1/2...
+GIT reset --soft / --mixed (default) / --hard
+mostra i cambiamenti avvennuti rispetto a un commit
+GIT branch 
+lista i branch
+GIT branch <branch>
+crea un branch
+GIT checkout <branch>
+cambia branch
+GIT checkout -b <branch>
+crea e cambia branch
+GIT diff branch1..branch2
+mostra differenze tra branch
+GIT branch --merged
+mostra i branch uniti
+GIT branch --d <branch>
+elimina il branch unito
+GIT branch --D <branch>
+elimina il branch non ancora unito
+GIT merge <branch>
+unisce branch a master
+GIT merge upstream/master
+sincronizza un fork con il master orignale
+GIT merge --abort
+annulla branch in corso
+GIT remote ADD origin/upstream <url>
+imposta collegamento a github
+GIT remote 
+mostra alias registrati (origin)
+GIT remote show origin
+informazioni sul server
+GIT remote -V
+controllo url collegamenti server remoto
+GIT remote rename origin neworigin
+GIT remote remove origin
+GIT push
+git push -u origin master
+GIT fetch
+sincronizza con il server remoto (+ git status per vedere differenze)
+GIT pull
+sincronizza e recupera i nuovi files dal server remoto
+GIT pull upstream master
+sincronizza e recupera i nuovi files dal server remoto originale del fork
+GIT push
+sincronizza e invia nuovi files e modifiche al server remoto
+GIT clone <url> [new-name]
+copia un progetto da github
+
+MKDIR <di>
+crea directory
+TOUCH <file>
+aggiunge file
+ECHO hello > file.txt
+crea file con contenuto
+CAT file.txt
+mostra contenuto file
+LS
+mostra files
+LS -a
+mostra files nascosti
+
+CLEAR
+
+.gitignore
+# directory
+temp 
+temp/dir/*.log
+# files
+*.log
+# eccezione
+!debug.log 
+
+vi editor
+i
+esc
+:wq
+
+ALT+96=`
+ALT+126=~
+
+gitkraken
