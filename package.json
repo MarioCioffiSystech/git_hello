@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "test project for git tutorial\r line for testing fetch",
-  "main": "src/server.js",
+  "main": "src/server/server.js",
   "scripts": {
-    "start": "nodemon src/api/api.js"
+    "start": "nodemon src/server/server.js"
   },
   "repository": {
     "type": "git",

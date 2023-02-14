@@ -1,4 +1,4 @@
-import app from "./api/api";
+import app from "../api/api.js";
 
 const port = 3000;
 const hostname = "localhost";
