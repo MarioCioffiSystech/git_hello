@@ -32,6 +32,8 @@ GIT log
 GIT log --oneline [--reverse]
 GIT log --all --decorate --oneline --graph
 alias graph='git log --all --decorate --oneline --graph'
+lista grafica dei commit
+GIT reflog
 lista dei commit
 
 GIT reset <ID SHA1> o HEAD^/^^... o HEAD~1/2...
