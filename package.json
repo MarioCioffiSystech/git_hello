@@ -5,7 +5,8 @@
   "description": "test project for git tutorial\r line for testing fetch",
   "main": "src/server/server.js",
   "scripts": {
-    "start": "nodemon src/server/server.js"
+    "start": "nodemon src/server/server.js",
+    "dev": "nodemon src/server/server.js"
   },
   "repository": {
     "type": "git",

@@ -1,17 +1,22 @@
 GIT init
 inizializza directory
+
 GIT config --local/global user.name "MarioCioffiSystech"
 GIT config --local/global user.email "cioffi.m@systechteam.it"
 configurazione
+
 GIT status
 mostra stato
+
 GIT add <file>
 aggiunge file a stage area
 GIT add .
 aggiunge tutti i files a staging area
+
 GIT rm --cached <file>
 GIT restore --staged <file>
 rimuove file da staging area
+
 GIT commit
 GIT commit -am "commento" -m "descrizione"
 aggiunge committa e commenta
@@ -19,16 +24,20 @@ GIT commit -m "commento" -m "descrizione"
 salva nella history
 GIT commit --amend
 mofidica ultima commit
+
 GIT checkout -- <file>
 annulla ultime modifiche
+
 GIT log
 GIT log --oneline [--reverse]
 GIT log --all --decorate --oneline --graph
 alias graph='git log --all --decorate --oneline --graph'
 lista dei commit
+
 GIT reset <ID SHA1> o HEAD^/^^... o HEAD~1/2...
 GIT reset --soft / --mixed (default) / --hard
 mostra i cambiamenti avvennuti rispetto a un commit
+
 GIT branch 
 lista i branch
 GIT branch <branch>
@@ -51,6 +60,7 @@ GIT merge upstream/master
 sincronizza un fork con il master orignale
 GIT merge --abort
 annulla branch in corso
+
 GIT remote ADD origin/upstream <url>
 imposta collegamento a github
 GIT remote 
@@ -61,16 +71,19 @@ GIT remote -V
 controllo url collegamenti server remoto
 GIT remote rename origin neworigin
 GIT remote remove origin
+
 GIT push
 git push -u origin master
+sincronizza e invia nuovi files e modifiche al server remoto
+
 GIT fetch
 sincronizza con il server remoto (+ git status per vedere differenze)
+
 GIT pull
 sincronizza e recupera i nuovi files dal server remoto
 GIT pull upstream master
 sincronizza e recupera i nuovi files dal server remoto originale del fork
-GIT push
-sincronizza e invia nuovi files e modifiche al server remoto
+
 GIT clone <url> [new-name]
 copia un progetto da github
 
