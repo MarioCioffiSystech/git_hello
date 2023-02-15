@@ -25,6 +25,9 @@ salva nella history
 GIT commit --amend
 mofidica ultima commit
 
+GIT add . | GIT commit -m "commento"
+concatenazione comandi
+
 GIT checkout -- <file>
 annulla ultime modifiche
 
@@ -38,9 +41,9 @@ lista dei commit
 
 GIT reset <ID SHA1> o HEAD^/^^... o HEAD~1/2...
 annulla tutti i cambiamenti avvennuti da un commit in poi
-GIT reset --soft
+GIT reset <ID SHA1> --soft
 lascia i file dei commit annullati nella staging area
-GIT reset --hard
+GIT reset <ID SHA1> --hard
 elimina fisicamente i file dei commit annullati
 
 GIT revert <ID SHA1>
