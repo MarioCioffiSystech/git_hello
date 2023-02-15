@@ -37,8 +37,14 @@ GIT reflog
 lista dei commit
 
 GIT reset <ID SHA1> o HEAD^/^^... o HEAD~1/2...
-GIT reset --soft / --mixed (default) / --hard
-mostra i cambiamenti avvennuti rispetto a un commit
+annulla tutti i cambiamenti avvennuti da un commit in poi
+GIT reset --soft
+lascia i file dei commit annullati nella staging area
+GIT reset --hard
+elimina fisicamente i file dei commit annullati
+
+GIT revert <ID SHA1>
+rimuove solo i cambiamenti fatti da quel particolare commit
 
 GIT branch 
 lista i branch
