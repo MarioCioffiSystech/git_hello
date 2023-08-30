@@ -1,6 +1,10 @@
 GIT init
 inizializza directory
 
+rmdir .git -Force -Recurse
+rm .gitignore
+rimuove la gestione di git
+
 GIT config --local/global user.name "MarioCioffiSystech"
 GIT config --local/global user.email "cioffi.m@systechteam.it"
 configurazione
